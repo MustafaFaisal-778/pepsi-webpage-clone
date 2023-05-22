@@ -1,0 +1,327 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    /* background-color: #1b49a4; */
+}
+.nav-buttn{
+    margin: 0px 0px 0px 50px;
+
+
+}
+.nav-logo{
+    margin: 0px 0px 0px 35px;
+}
+.header{
+    margin: 0%;
+    padding: 0% !important;
+    height: 90px;
+}
+.clr{
+    background-color: #0065c3 !important;
+    color: white;
+}
+.bttn{
+    font-family: Sofia Pro , Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: white !important;
+}
+.header-bttn{
+    height: 33.3px;
+    width: 190px;
+    border-color: white;
+    background-color:#0065c3 ;
+    border-radius: 20px;
+    font-size: 12px;
+    font-family: Sofia Pro , Helvetica Neue, Helvetica, Arial, sans-serif;  
+    border:3px solid;
+    margin: 0px 60px 0px 0px;
+}
+
+/* ******************************navbar ends******************************* */
+.section1{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    height: 100%;
+}
+.right{
+    width: 100%;
+    background-color: black;
+}
+.right>img{
+    width: 64vw;
+    position: absolute;
+    background-color: black;
+}
+.left-side{
+    background-color: black;
+}
+.left{
+    background-color: black;
+}
+.left>img{
+    margin-top: 30%;
+    width: 65%;
+    position: relative;
+    margin-left: 10%;
+    /* background-color: black; */
+}
+.try-it{
+    background-color: black;
+    /* display: flex; */
+    /* width: 350.9px; */
+    height: 200px;
+    margin: 0;
+    margin-left: 17%;
+    margin-top: 3%;
+    margin-bottom: -18%;
+    position: relative;
+}
+.try-it>img{
+    /* width: ; */
+    width: 350.9px
+    
+}
+.videos{
+    display: flex;
+    direction: row;
+    /* margin:4px; */
+    margin-left: 10%;
+    position: relative;
+}
+.left-video{
+    margin-left: 10px;
+}
+.video-title{
+    text-transform: uppercase;
+    font-size: .7rem;
+    font-weight: 900;
+    cursor: pointer;
+    margin: 0.5rem 0.5rem 0;
+    text-align: center;
+    color: white;
+    margin-top: 2px;
+    margin-bottom: 9%;
+}
+.video-title-2{
+    margin-top: 0px;
+}
+/* **********************section1 ends*********************** */
+.section2{
+    height: 100%;
+    /* width: 105; */
+    background-color: #1b49a4;
+
+}
+.section2>img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+     position: absolute;
+    /* z-index: -1; */ 
+}
+.section2>img{
+    width: 100%;
+    height: 100%;
+}
+.section2-main{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* width: 100%; */
+    /* height: 100%; */
+    position: relative;
+    /* z-index: -1; */
+    margin-bottom: 1%;
+    
+    
+
+}
+
+.section2-left{
+    margin-top: 8%;
+    margin-left: 35%;
+    height: 72%;
+}
+.section2-left>img{
+    height: 90%;
+}
+.section2-right{
+
+margin-top: 26%;
+margin-bottom: 0%;
+/* height:100%; */
+
+}
+.section2-right>img{
+    height: 30%;
+}
+
+
+.learn-more-btn{
+    display: block;
+    font-size: 1em;
+    height: 2.3em;
+    padding: 0.4em 1.85em;
+    border: 2px solid #fff;
+    border-radius: 1.8em;
+    background: transparent;
+    color: #fff;
+    font-family: Sofia Pro Black, Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    /* -webkit-transition: background-color .1s ease-out, color .1s ease-out; */
+    transition: background-color .1s ease-out, color .1s ease-out;
+    margin-top: 6%;
+    margin-left: 8%;
+}
+/* ***********************section3 starts********************* */
+.section3{
+    margin-top: -15%;
+    margin-left: 0%;
+    background-color: #1b49a4;
+}
+
+/* *************************section4 starts********************************* */
+
+
+.video>video{ 
+       width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #000; 
+}
+
+/* ***************************section5 starts************************************************** */
+
+.section5{
+    height: 100%;
+    /* width: 105; */
+    margin: 0;
+
+
+}
+.section5>img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+     position: absolute;
+    /* z-index: -1; */ 
+}
+.section5>img{
+    width: 100%;
+    height: 100%;
+}
+.section5-main{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* width: 100%; */
+    /* height: 100%; */
+    position: relative;
+    /* z-index: -1; */
+    margin-bottom: 1%;
+    
+    
+
+}
+
+.section5-left{
+    margin-top: 8%;
+    margin-left: 15%;
+    height: 72%;
+    padding-right: 10%;
+}
+.section5-left>img{
+    height: 94%;
+    /* padding-right: 10%; */
+}
+.section5-right{
+/* padding-left:10% ; */
+margin-top: 26%;
+margin-bottom: 0%;
+/* height:100%; */
+
+}
+.section5-right>img{
+    height: 37%;
+    padding-left:23% ;
+}
+/* ***********************section6 starts************************** */
+.section6{
+    margin-top: -15%;
+    margin-left: 0%;
+    background-color: black;
+}
+/* *****************************footer************************************* */
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    background-color: #0065c3;
+}
+.footer-logo{
+    margin-right: 2%;
+
+}
+.footer-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+    column-count: 3;
+    
+    column-gap: 4rem;
+}
+.footer-list>li{
+    color: white;
+    font-weight: bold;
+}
+
+
+
+.footer-button{
+    display: inline-block;
+    font-size: 1em;
+    height: 2.3em;
+    padding: 0.4em 1.85em;
+    border: 2px solid #fff;
+    border-radius: 1.8em;
+    background: transparent;
+   
+    font-family: Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    white-space: nowrap;
+    
+    font-weight: bold;
+    color:white;
+}
+/* .footer-button{
+    height: 33.3px;
+    width: 190px;
+    border-color: white;
+    background-color:#0065c3 ;
+    border-radius: 20px;
+    font-size: 12px;
+    font-family: Sofia Pro , Helvetica Neue, Helvetica, Arial, sans-serif;  
+    border:3px solid;
+    margin: 0px 60px 0px 0px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
